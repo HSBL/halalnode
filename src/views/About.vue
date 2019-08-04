@@ -1,5 +1,16 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>Halal certification</h1>
+    <Halal />
   </div>
 </template>
+
+<script>
+import Halal from "@/components/Halal.vue";
+
+export default {
+  components: {
+    Halal
+  }
+};
+</script>
